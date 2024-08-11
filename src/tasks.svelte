@@ -276,7 +276,7 @@
             {task.text}
           </div>
           <div>
-            {#if task.datetime?.time !== ""}
+            {#if task.datetime?.time !== "" && task.datetime !== undefined}
               <Litteinfo color="outline">
                 {task.datetime?.time}
               </Litteinfo>

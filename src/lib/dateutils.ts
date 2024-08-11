@@ -39,7 +39,7 @@ export function taskIsForTomorrow(task: Task) {
     return false;
   }
   if (task.datetime === undefined) {
-    return true;
+    return false;
   }
   if (
     task.datetime?.date ===
