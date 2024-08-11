@@ -114,6 +114,10 @@
   src={resData?.url}
 />
 
+<svelte:head>
+  <title>{t("title")}</title>
+</svelte:head>
+
 {#if image_color !== 2137}
   <StyleFromScheme
     lightScheme={serializeScheme(

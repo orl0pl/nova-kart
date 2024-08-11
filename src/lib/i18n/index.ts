@@ -32,7 +32,8 @@ export type I18nKey =
   | "date"
   | "time"
   | "yesterday"
-  | "no_tasks";
+  | "no_tasks"
+  | "title";
 
 const en: Record<I18nKey, string> = {
   search_label: "Search",
@@ -68,6 +69,7 @@ const en: Record<I18nKey, string> = {
   date: "Date",
   time: "Time",
   no_tasks: "No tasks",
+  title: "New card",
 };
 
 const pl: Record<I18nKey, string> = {
@@ -104,6 +106,7 @@ const pl: Record<I18nKey, string> = {
   date: "Data",
   time: "Czas",
   no_tasks: "Brak zadań",
+  title: "Nowa karta",
 };
 
 export function getLanguage(): Laguage {
