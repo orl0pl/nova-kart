@@ -1,0 +1,42 @@
+{
+  "name": "extensions-with-svelte",
+  "description": "A simple Chrome extension with Svelte",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "author": {
+    "name": "Aman Kumar",
+    "url": "https://amancodes.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bullet-ant/extensions-with-svelte"
+  },
+  "bugs": {
+    "url": "https://github.com/bullet-ant/extensions-with-svelte/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "watch": "chokidar 'src/**/*' 'public/**/*' -c 'npm run build'"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@types/chrome": "^0.0.260",
+    "chokidar-cli": "^3.0.0",
+    "svelte": "^4.2.10",
+    "vite": "^5.1.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1",
+    "@ktibow/iconset-mdi": "^0.0.1718880438",
+		"@material/material-color-utilities": "^0.3.0",
+		"@parcel/config-webextension": "^2.12.0",
+		"m3-svelte": "^3.2.7",
+		"nanoid": "^5.0.7",
+		"svelte-relative-time": "^0.0.6",
+		"svelte-timeago": "^0.1.2"
+  },
+  "license": "MIT"
+}

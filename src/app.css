@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+
+#app, body {
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(var(--m3-scheme-background)) black;
+}
+html {
+  background-color: black;
+}
